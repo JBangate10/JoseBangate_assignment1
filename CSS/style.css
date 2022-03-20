@@ -1,3 +1,46 @@
 body {
-    background-color: #ebbcba;
+    background-color: #f2e9e1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0%;
+    list-style: none;
+    font-family: 'Robot Slab', serif;
+}
+
+nav ul li {
+    width: 5%;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #31748f;
+}
+
+button {
+    padding-left: 350px;
+    padding-top: 75px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #31748f;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.text-center {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #31748f;
 }
