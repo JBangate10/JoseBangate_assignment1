@@ -20,6 +20,44 @@ nav ul li a {
     color: #31748f;
 }
 
+.slide-in {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #31748f;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.plus-sign1 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #31748f;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.new-note {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #31748f;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.NewNote-container {
+    padding-left: 450px;
+    padding-top: 50px;
+}
+
 .slide-out {
     background-color: transparent;
     background-repeat: no-repeat;
@@ -124,28 +162,6 @@ textarea, .SaveDelete-container {
 
 .SaveDelete-container {
     padding-left: 215px;
-}
-
-.slide-in {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    color: #31748f;
-    border: none;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-size: large;
-}
-
-.new-note {
-    padding-left: 350px;
-    padding-top: 75px;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    color: #31748f;
-    border: none;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-size: large;
 }
 
 footer {
