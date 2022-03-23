@@ -66,6 +66,66 @@ nav ul li a {
     color: #31748f;
 }
 
+label, textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    font-size: 30px;
+}
+
+.textarea-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.label-container {
+    font-weight: bold;
+    color: #31748f;
+}
+
+.save-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #31748f;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.delete-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #b4637a;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+textarea, .SaveDelete-container {
+    display: flex;
+    justify-content: center;
+}
+
+.SaveDelete-container {
+    padding-left: 215px;
+}
+
 .slide-in {
     background-color: transparent;
     background-repeat: no-repeat;

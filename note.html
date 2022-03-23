@@ -11,24 +11,39 @@
     <title>Note</title>
 </head>
 <body>
-    
+    <div class="sidebar-container">
+        <div class="sidebar-button">
+            <button class="slide-out"><<</button>
+        </div>
+        <ul class="sidebar-navigation">
+            <li><a href="#">My Notes</a></li>
+            <li><a href="#">Note One</a></li>
+            <li><a href="#">Note Two</a></li>
+        </ul>
+    </div>
     <main>
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Docs</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Docs</a></li>
+                </ul>
+            </nav>  
+        </header>
+        <article class="textarea-container">
 
-        <div class="sidebar-container">
-            <div class="sidebar-button">
-                <button class="slide-out"><<</button>
+            <div class="label-container">
+                <label for="plus-sign">+</label>
             </div>
-            <ul class="sidebar-navigation">
-                <li><a href="#">My Notes</a></li>
-                <li><a href="#">Note One</a></li>
-                <li><a href="#">Note Two</a></li>
-            </ul>
+            <textarea id="plus-sign" name="plus-sign" rows="5" cols="33">
+                Your note here
+            </textarea>
+
+        </article>
+
+        <div class="SaveDelete-container">
+            <button class="save-button">Save</button>  
+            <button class="delete-button">Delete</button> 
         </div>
 
         <footer>
