@@ -11,8 +11,12 @@ nav ul {
 }
 
 nav ul li {
-    width: 5%;
     font-size: 20px;
+}
+
+li {
+    padding-left: .5%;
+    padding-right: .5%;
 }
 
 nav ul li a {
@@ -175,4 +179,57 @@ footer {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: #31748f;
+}
+
+@media screen and (max-width:420px) {
+    nav ul {
+        font-size: 15px;
+    }
+
+    header, nav, ul, li {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .NewNote-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .new-note {
+        padding-right: 550px;
+    }
+
+    .sidebar-container {
+        position: fixed;
+        width: 120px;
+    }
+
+    .sidebar-navigation {
+        display: flex;
+        flex-direction: column;
+        padding-right: 150px;
+    }
+
+    textarea {
+        height: 150px;
+        width: 150px;
+    }
+
+    .textarea-container {
+        padding-left: 65px;
+    }
+
+    .SaveDelete-container {
+        padding-right: 50px;
+    }
+
+    .text-center {
+        padding-left: 10px;
+    }
 }
